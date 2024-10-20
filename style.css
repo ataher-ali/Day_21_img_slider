@@ -1,0 +1,22 @@
+.box{
+    background-size: 100% 100%;
+    box-shadow: 5px 10px 10px gray;
+    animation: slider 4s linear infinite;
+    height: 400px;
+    width: 800px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+    border-radius: 10px;
+}
+
+@keyframes slider {
+    0%{background-image: url("https://img.freepik.com/free-photo/shot-tiger-laying-ground-while-watching-his-territory_181624-44049.jpg?t=st=1729413659~exp=1729417259~hmac=7f016fab70b24ba7eac4fe93d5aaa4267b1511ff13f1ca73a7c1d1b043fe183e&w=1060");}
+    30%{background-image: url("https://img.freepik.com/free-photo/elephant-walking-road_181624-23124.jpg?t=st=1729413689~exp=1729417289~hmac=027f6bb8ee18213a461ce03748c8a28ca359b3c2c0e6dd177ef21ce16acc2364&w=996");}
+    60%{background-image: url("https://img.freepik.com/free-photo/beautiful-elephant-gravel-pathway-surrounded-by-green-grass-trees_181624-23979.jpg?t=st=1729413748~exp=1729417348~hmac=dcc8cc278a12cac081b29fe427bc2430ef143ba08862348d49b58187f17dbc44&w=996");}
+    100%{background-image: url("https://img.freepik.com/free-photo/shot-tiger-laying-ground-while-watching-his-territory_181624-44049.jpg?t=st=1729413659~exp=1729417259~hmac=7f016fab70b24ba7eac4fe93d5aaa4267b1511ff13f1ca73a7c1d1b043fe183e&w=1060");}
+}
+
+
+
